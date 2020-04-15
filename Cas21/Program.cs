@@ -41,7 +41,9 @@ namespace Cas21
              */
             double r2 = AddNumbersFloat(2.2, 2.8);
             Console.WriteLine("Rezultat AddNumbers() je {0}", r1);
-            double rezultat5 = Vezba3(30, 30);            Console.WriteLine("Rezultat metoda Vezba3 je {0}", rezultat5);
+
+            double rezultat5 = Vezba3(30, 30);
+            Console.WriteLine("Rezultat metoda Vezba3 je {0}", rezultat5);
 
             string rS = AddStrings("String1", "String2");
 
@@ -64,7 +66,19 @@ namespace Cas21
             return result;
         }
 
-        static public double Vezba3(double l1, double l2)        {            double rezultat5;            if (l1 > l2)            {                rezultat5 = l1 / l2;            }            else            {                rezultat5 = l2 / l1;            }            return rezultat5;        }
+        static public double Vezba3(double l1, double l2)
+        {
+            double rezultat5;
+            if (l1 > l2)
+            {
+                rezultat5 = l1 / l2;
+            }
+            else
+            {
+                rezultat5 = l2 / l1;
+            }
+            return rezultat5;
+        }
 
         static public string AddStrings(string s1, string s2)
         {
